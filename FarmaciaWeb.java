@@ -9,6 +9,7 @@ public class FarmaciaWeb {
         String contrasena = "admin";
         int producto = 0;
         int opcion = 0;
+        int dosis = 0;
 
         Integer[] numero;
         numero = new Integer[5];
@@ -42,9 +43,11 @@ public class FarmaciaWeb {
                     case 2:
                         System.out.println("Ingrese el numero del medicamento que desea comprar: ");
                         producto = scanner.nextInt();
+                        System.out.println("Ingrese la cantidad del medicamento que desea comprar: ");
+                        dosis = scanner.nextInt();
                         switch(producto){
                             case 1:
-                                numero[0] -= 1;
+                                numero[0] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -52,7 +55,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 2:
-                                numero[1] -= 1;
+                                numero[1] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -60,7 +63,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 3:
-                                numero[2] -= 1;
+                                numero[2] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -68,7 +71,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 4:
-                                numero[3] -= 1;
+                                numero[3] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -76,7 +79,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 5:
-                                numero[4] -= 1;
+                                numero[4] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -88,9 +91,11 @@ public class FarmaciaWeb {
                     case 3:
                         System.out.println("Ingrese el nombre del medicamento que desea vender: ");
                         producto = scanner.nextInt();
+                        System.out.println("Ingrese la cantidad del medicamento que desea vender: ");
+                        dosis = scanner.nextInt();
                         switch(producto){
                             case 1:
-                                numero[0] += 1;
+                                numero[0] += dosis;
                                 System.out.println("----La venta se ha realizado con exito----");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -98,7 +103,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 2:
-                                numero[1] += 1;
+                                numero[1] += dosis;
                                 System.out.println("----La venta se ha realizado con exito----");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -106,7 +111,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 3:
-                                numero[2] += 1;
+                                numero[2] += dosis;
                                 System.out.println("----La venta se ha realizado con exito----");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -114,7 +119,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 4:
-                                numero[3] += 1;
+                                numero[3] += dosis;
                                 System.out.println("----La venta se ha realizado con exito----");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -122,7 +127,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 5:
-                                numero[4] += 1;
+                                numero[4] += dosis;
                                 System.out.println("----La venta se ha realizado con exito----");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -153,9 +158,11 @@ public class FarmaciaWeb {
                     case 2:
                         System.out.println("Ingrese el numero del medicamento que desea comprar: ");
                         producto = scanner.nextInt();
+                        System.out.println("Ingrese la cantidad del medicamento que desea comprar: ");
+                        dosis = scanner.nextInt();
                         switch(producto){
                             case 1:
-                                numero[0] -= 1;
+                                numero[0] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -163,7 +170,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 2:
-                                numero[1] -= 1;
+                                numero[1] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -171,7 +178,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 3:
-                                numero[2] -= 1;
+                                numero[2] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -179,7 +186,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 4:
-                                numero[3] -= 1;
+                                numero[3] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
@@ -187,7 +194,7 @@ public class FarmaciaWeb {
                                 }
                                 break;
                             case 5:
-                                numero[4] -= 1;
+                                numero[4] -= dosis;
                                 System.out.println("La compra se ha realizado con exito");
                                 System.out.println("El catalogo se visualiza de esta forma: ");
                                 for(int i = 0; i < cantidad; i++){
